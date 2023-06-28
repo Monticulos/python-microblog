@@ -31,5 +31,6 @@ def create_app():
         ]
         return render_template("home.html", entries=entries_with_date)
     
+
     
     return app
